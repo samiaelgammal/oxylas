@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxylas: Oceanic Planet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Oxylas</h1>
+        <p>Explore the oceanic world beneath the ice</p>
+    </header>
+
+    <section id="overview">
+        <h2>Planet Overview</h2>
+        <p>Oxylas is a distant oceanic planet covered by a thick layer of ice...</p>
+        <button onclick="toggleSection('deep-ocean')">Enter the Deep Ocean</button>
+    </section>
+
+    <section id="deep-ocean" class="hidden">
+        <h2>Water Availability and Ocean Characteristics</h2>
+        <p>The planet Oxylas is a world unlike any other—an endless ocean with not a single landmass in sight. Its waters stretch down for kilometers beneath a thick layer of ice. The surface layers are cold and shrouded in darkness, as the planet is far from its distant star, leaving very little light to break through. But as you dive deeper, the temperature plummets and the pressure becomes almost unbearable. Yet, life has found a way to survive here, adapting to the extreme cold and crushing depths in ways that seem almost unimaginable.</p>
+        <img src="images/ocean.jpg" alt="Deep Ocean">
+        <button onclick="toggleSection('energy-source')">Explore Chemosynthesis</button>
+    </section>
+
+    <section id="energy-source" class="hidden">
+        <h2>Energy Source: Chemosynthesis</h2>
+        <p>In the pitch-black depths of Oxylas' ocean, where sunlight never reaches, life has evolved a remarkable way to thrive. Instead of relying on sunlight for energy, organisms turn to chemosynthesis, a process that taps into the chemical richness of their environment. Around hydrothermal vents and cold seeps on the ocean floor, life flourishes thanks to two key reactions:
+
+Hydrogen Sulfide Oxidation: Microorganisms at hydrothermal vents oxidize hydrogen sulfide (H₂S) to produce energy, turning it into sulfate, water, and a burst of vital energy. 
+𝐻
+2
+𝑆
++
+𝑂
+2
+→
+𝑆
+𝑂
+4
+2
+−
++
+𝐻
+2
+𝑂
++
+𝐸
+𝑛
+𝑒
+𝑟
+𝑔
+𝑦
+H 
+2
+​
+ S+O 
+2
+​
+ →SO 
+4
+2−
+​
+ +H 
+2
+​
+ O+Energy
+
+Methane Oxidation: In the frigid regions around cold seeps, other organisms use methane (CH₄) as their energy source, converting it into carbon dioxide, water, and energy. 
+𝐶
+𝐻
+4
++
+𝑂
+2
+→
+𝐶
+𝑂
+2
++
+𝐻
+2
+𝑂
++
+𝐸
+𝑛
+𝑒
+𝑟
+𝑔
+𝑦
+CH 
+4
+​
+ +O 
+2
+​
+ →CO 
+2
+​
+ +H 
+2
+​
+ O+Energy
+
+These hidden chemical reactions power entire ecosystems, allowing life to endure in the dark, icy waters of Oxylas' vast ocean.</p>
+        <img src="images/hydrothermal-vent.jpg" alt="Hydrothermal Vents">
+        <button onclick="toggleSection('geological-features')">Explore Geological Features</button>
+    </section>
+
+    <section id="geological-features" class="hidden">
+        <h2>Geological Features of Oxylas</h2>
+        <p>Beneath the icy surface of Oxylas’ ocean lies a world full of strange and fascinating life forms, thriving in extreme environments. Towering hydrothermal vents, known as "black smokers," spew superheated, mineral-rich water from the planet's crust, supporting microbial communities that feed on sulfur compounds. In other regions, cold seeps release methane and hydrocarbons from the seafloor, where methane-oxidizing bacteria serve as the foundation of unique ecosystems. Periodic underwater volcanic eruptions reshape the ocean floor, with fresh lava fields and vent formations providing new habitats for life. The mineral-rich ocean floor, coated in metals like iron, nickel, and manganese, offers essential resources that organisms incorporate into their structures to survive in this harsh environment.</p>
+        <img src="images/volcanic-ocean-floor.jpg" alt="Volcanic Ocean Floor">
+        <button onclick="toggleSection('biosphere')">Explore Biosphere</button>
+    </section>
+
+    <section id="biosphere" class="hidden">
+        <h2>Biosphere and Life Forms</h2>
+        <p>In the mysterious depths of Oxylas' ocean, a vibrant ecosystem thrives, beginning with microbial communities of chemosynthetic bacteria and archaea that form the foundation of the food chain around hydrothermal vents and cold seeps. These essential microbes engage in symbiotic relationships, providing vital nutrients for larger organisms. Among them are the giant tube worms, which can grow several meters long and rely on symbiotic bacteria to convert sulfur into energy, making them key players in the vent ecosystems. Floating through the water are krill-like organisms and shrimp that sustain themselves by filter-feeding on bacteria and detritus. Meanwhile, cephalopod-like predators, equipped with bioluminescent appendages, attract prey with their glowing light, their transparent or reflective bodies helping them blend into the dark surroundings. Deep-sea coral structures form intricate habitats around the vents, fostering diverse ecosystems, while sponges filter the water and play crucial roles in nutrient recycling, contributing to the delicate balance of life in this alien underwater world.</p>
+        <img src="images/life-forms.jpg" alt="Life Forms">
+        <button onclick="toggleSection('adaptations')">Explore Adaptations</button>
+    </section>
+
+    <section id="adaptations" class="hidden">
+        <h2>Adaptations to Extreme Conditions</h2>
+        <p>Organisms inhabiting the extreme environments near hydrothermal vents have developed remarkable adaptations to survive their harsh surroundings. They possess heat-resistant proteins and cellular structures that enable them to endure near-boiling temperatures. In the absence of light, these creatures rely on highly sensitive chemical sensors to detect food and navigate their dark world. Additionally, life forms in the deep ocean have adapted to withstand immense pressure, featuring flexible cell membranes and specialized enzymes that facilitate efficient metabolism in these conditions. Many of these organisms also exhibit bioluminescence, using emitted light for attracting prey or communicating with one another, a trait particularly prevalent among predators and social species.</p>
+        <img src="images/adaptations.jpg" alt="Adaptations">
+        
+    </section>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
